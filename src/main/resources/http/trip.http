@@ -1,0 +1,38 @@
+
+{{url}}/trip
+
+###
+
+{{url}}/trip/1
+
+###
+
+POST {{url}}/trip
+content-type: application/json
+
+{
+  "starttime": "13:00",
+  "endtime": "20:00",
+  "startposition": "Norway",
+  "name": "Snowboarding",
+  "price": 5000.00,
+  "category": "SNOW"
+}
+
+###
+
+PUT {{url}}/trip/13
+content-type: application/json
+
+{
+  "starttime": "13:00",
+  "endtime": "20:00",
+  "startposition": "Sweden",
+  "name": "Snowboarding",
+  "price": 5000.00,
+  "category": "SNOW"
+}
+
+###
+
+DELETE {{url}}/trip/13
